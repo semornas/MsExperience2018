@@ -1,0 +1,119 @@
+{
+  "faceRectangle": {
+    "top": 1123,
+    "left": 1759,
+    "width": 833,
+    "height": 833
+  },
+  "faceAttributes": {
+    "smile": 0.993,
+    "gender": "male",
+    "age": 27.0,
+    "facialHair": {
+      "moustache": 0.1,
+      "beard": 0.1,
+      "sideburns": 0.1
+    },
+    "glasses": "NoGlasses",
+    "emotion": {
+      "anger": 0.0,
+      "contempt": 0.002,
+      "disgust": 0.0,
+      "fear": 0.0,
+      "happiness": 0.993,
+      "neutral": 0.005,
+      "sadness": 0.0,
+      "surprise": 0.0
+    },
+    "hair": {
+      "bald": 0.04,
+      "invisible": false,
+      "hairColor": [
+        {
+          "color": "black",
+          "confidence": 1.0
+        },
+        {
+          "color": "other",
+          "confidence": 0.66
+        },
+        {
+          "color": "gray",
+          "confidence": 0.58
+        },
+        {
+          "color": "brown",
+          "confidence": 0.43
+        },
+        {
+          "color": "blond",
+          "confidence": 0.01
+        },
+        {
+          "color": "red",
+          "confidence": 0.0
+        }
+      ]
+    }
+  }
+},
+  {
+     "faceRectangle":{
+        "top":558,
+        "left":0,
+        "width":476,
+        "height":561
+     },
+     "faceAttributes":{
+        "smile":0.003,
+        "gender":"male",
+        "age":37.0,
+        "facialHair":{
+           "moustache":0.1,
+           "beard":0.1,
+           "sideburns":0.1
+        },
+        "glasses":"Sunglasses",
+        "emotion":{
+           "anger":0.0,
+           "contempt":0.001,
+           "disgust":0.0,
+           "fear":0.0,
+           "happiness":0.003,
+           "neutral":0.996,
+           "sadness":0.0,
+           "surprise":0.0
+        },
+        "hair":{
+           "bald":0.02,
+           "invisible":false,
+           "hairColor":[
+              {
+                 "color":"brown",
+                 "confidence":1.0
+              },
+              {
+                 "color":"black",
+                 "confidence":0.89
+              },
+              {
+                 "color":"red",
+                 "confidence":0.18
+              },
+              {
+                 "color":"gray",
+                 "confidence":0.17
+              },
+              {
+                 "color":"blond",
+                 "confidence":0.07
+              },
+              {
+                 "color":"other",
+                 "confidence":0.05
+              }
+           ]
+        }
+     }
+  }
+]

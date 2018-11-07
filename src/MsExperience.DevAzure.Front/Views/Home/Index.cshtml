@@ -1,0 +1,18 @@
+﻿
+
+<div class="upload">
+
+    @if (ViewData["success"] as bool? != true)
+    {
+    <form method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="file" />
+        <label for="file">Choisir une photo</label>
+        <div style="color:red;">@ViewData["message"]</div>
+        <button type="submit">Upload</button>
+    </form>
+    }
+    else
+    {
+        <div class="congrats">@ViewData["message"]</div>
+    }
+</div>
